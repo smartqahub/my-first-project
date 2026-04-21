@@ -4,7 +4,7 @@ package stepdefinitions;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 
-import base.BaseClass;
+import basePage.BaseClass;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
