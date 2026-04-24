@@ -24,7 +24,7 @@ public class LoginPage extends BaseClass {
 	
 	//Login button per click
 	
-    @FindBy(id="login-button")
+    @FindBy(id="login-button3")
 	
 	WebElement loginbutton;
 	

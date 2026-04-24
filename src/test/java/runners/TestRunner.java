@@ -19,8 +19,7 @@ import io.cucumber.junit.CucumberOptions;
         "junit:target/cucumber.xml",  // 👉 Jenkins report parsing ke liye MUST
         
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-    }
-    
+    }    
     )
 
 public class TestRunner {
