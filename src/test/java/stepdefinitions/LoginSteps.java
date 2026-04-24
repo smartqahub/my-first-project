@@ -17,8 +17,6 @@ public class LoginSteps extends BaseClass {
 	@Given("user is on Login Page") 
 	public void user_is_on_Login_Page() {
 	
-		  // URL already open ho chuka hai Hooks se
-        // yahan kuch karna zaroori nahi
 	}
 	
 	@When("user enters valid username aur password")

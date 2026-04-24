@@ -43,13 +43,30 @@
     <artifactId>extentreports-cucumber7-adapter</artifactId>
     <version>1.14.0</version>
     <scope>compile</scope>
-</dependency>
-  
+</dependency>  
   
   </dependencies>
   
+ <!-- 🔥 IMPORTANT FOR JENKINS -->
+  <build>
+    <plugins>
+
+      <!-- Maven Surefire Plugin (Test Run ke liye MUST) -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.5.5</version>
+        <configuration>
+          <includes>
+            <include>**/*Runner.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+
+</project> 
   
   
   
-  
-</project>
