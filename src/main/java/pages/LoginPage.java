@@ -26,10 +26,10 @@ public class LoginPage extends BaseClass {
 	
     @FindBy(id="login-button")
 	
+    
 	WebElement loginbutton;
 	
-	//Action
-    
+	  
     //Method for Username Type
     
     public void enterUserName(String user) {
